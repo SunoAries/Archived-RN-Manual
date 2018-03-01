@@ -10,7 +10,7 @@
   | 12 | 12 | 21 | 12 |
 
 ```javascript
-int q1
+int
 ```
 
 
