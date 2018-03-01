@@ -11,7 +11,7 @@ $$x = y$$
 3. 大师傅
 4. 水电费
 
-[奶奶的](/www.baidu.com)啊
+[奶奶的](https://www.baidu.com)啊
 
 ~~人头~~
 
