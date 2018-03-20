@@ -1,17 +1,10 @@
-# First Chapter
+# UI 组件
 
-* 萨达aaaa
+使用native-base组件库
 
-  | 阿斯蒂芬 | 阿斯蒂芬 | 1 | 2 |
-  | :---: | :--- | :--- | :--- |
-  | 2 | 33 | 1 | 2 |
-  | 1 | 2 | 3 | 4 |
-  | 12 | 21 | 12 | 12 |
-  | 12 | 12 | 21 | 12 |
+[nativebase文档](https://docs.nativebase.io/ "nativebase")
 
-```javascript
-int
-```
+ps:使用&lt;ActionSheet&gt;或者Toast,需将顶层组件包含在&lt;Root&gt;之中
 
 
 
