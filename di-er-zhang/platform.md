@@ -34,12 +34,10 @@ class Org extends React.PureComponent {
         </Container>
      )
   }  
-  
+
 ......
 }
 ```
-
-
 
 
 
