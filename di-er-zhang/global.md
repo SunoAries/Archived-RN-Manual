@@ -26,5 +26,25 @@ export function scale(pix) {
 }
 ```
 
+#### Use Example
+
+```
+import * as Global from '../../util/Global';
+
+const styles = {
+    ......
+    title: {
+        fontSize: Global.scale(Global.titleSize),
+        color: '#333333',
+        backgroundColor: '#f2f2f2'
+    },
+    footer: {
+        marginTop: Global.scale(180)
+    },
+
+    ......
+}
+```
+
 
 
