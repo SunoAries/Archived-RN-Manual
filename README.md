@@ -101,3 +101,15 @@ Ares是BONC移动开发框架，在此基础上，只需调用相关api，即可
       
 * [常见问题](di-san-zhang.md)
 
+##  性能对比
+### 性能 
+*   内存：Native最少；因为React Native含有框架，所以相对较高，但是后期平稳后会优于Native。
+*   CPU：React Native居中。
+*   动画：React Native动画需求基本满足。
+*   Big ListView
+*   真机体验：Native >= React Native > H5/Hybrid
+### 更新与维护
+*   更新能力: H5/Hybird > React Native > Native
+*   维护成本: H5/Hybird <= React Native < Native
+
+
