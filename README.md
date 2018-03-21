@@ -1,4 +1,5 @@
 # BONC移动开发平台文档
+
 Ares是BONC移动开发框架，在此基础上，只需调用相关api，即可构建面向不同业务的移动应用
 
 ## 技术栈
@@ -16,12 +17,11 @@ Ares是BONC移动开发框架，在此基础上，只需调用相关api，即可
 * 用户管理
 * 数据持久化
 
-##  项目搭建
+## 项目搭建
 
-1.  Java环境+安卓环境
-2.  npm install
-3.  react-native run-android/run-ios
-
+1. Java环境+安卓环境
+2. npm install
+3. react-native run-android/run-ios
 
 ## 项目目录
 
@@ -89,27 +89,30 @@ Ares是BONC移动开发框架，在此基础上，只需调用相关api，即可
     └─webview       #调用webview页面
 ```
 
-##  使用
+## 使用
 
-*   [UI组件](chapter1.md)
-     引入 `import { Button } from "native-base";` 在页面中即可使用`<Button>button</Button>`
-     
-* [工具函数](di-er-zhang.md)
-      引入 `import {versionCheck} from "../../util/AppUtil";` 
-      
+* [UI组件](chapter1.md)  
+   引入 `import { Button } from "native-base";` 在页面中即可使用`<Button>button</Button>`
+
+* [工具函数](di-er-zhang.md)  
+      引入 `import {versionCheck} from "../../util/AppUtil";`
+
       调用工具函数`versionCheck(this.props.setting.version)`
-      
+
 * [常见问题](di-san-zhang.md)
 
-##  性能对比
-### 性能 
-*   内存：Native最少；因为React Native含有框架，所以相对较高，但是后期平稳后会优于Native。
-*   CPU：React Native居中。
-*   动画：React Native动画需求基本满足。
-*   Big ListView
-*   真机体验：Native >= React Native > H5/Hybrid
-### 更新与维护
-*   更新能力: H5/Hybird > React Native > Native
-*   维护成本: H5/Hybird <= React Native < Native
+## 性能对比
+
+### 性能
+
+* 内存：Native最少；因为React Native含有框架，所以相对较高，但是后期平稳后会优于Native。
+* CPU：React Native居中。
+* 动画：React Native动画需求基本满足。
+* Big ListView
+* 真机体验：Native &gt;= React Native &gt; H5/Hybrid
+  ### 更新与维护
+* 更新能力: H5/Hybird &gt; React Native &gt; Native
+* 维护成本: H5/Hybird &lt;= React Native &lt; Native
+
 
 
