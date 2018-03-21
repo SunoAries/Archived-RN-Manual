@@ -26,5 +26,27 @@ export function scale(pix) {
 }
 ```
 
+#### Use Example 
+
+```
+import * as Global from '../../util/Global';
+
+const styles = {
+    ......
+    footer: {
+        marginTop: Global.scale(180)
+    },
+
+    ......
+}
+
+
+
+
+
+
+
+```
+
 
 
