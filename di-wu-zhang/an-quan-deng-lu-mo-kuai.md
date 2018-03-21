@@ -71,9 +71,9 @@ class Login extends Component {
      }
 }
 
+
 export default connect(state => ({ state: state.login }),
     dispatch => ({ actions: bindActionCreators(actions, dispatch) }))(Login);
-
 ```
 
 #### 
