@@ -12,7 +12,7 @@
   * [Q&A](di-san-zhang/qanda.md)
 * [第五章  模块介绍](di-wu-zhang.md)
   * [安全登录](di-wu-zhang/an-quan-deng-lu-mo-kuai.md)
-  * 请求加密
+  * [请求加密](di-wu-zhang/qing-qiu-jia-mi.md)
   * 版本检测
   * 安装卸载
   * 娱乐聊天
