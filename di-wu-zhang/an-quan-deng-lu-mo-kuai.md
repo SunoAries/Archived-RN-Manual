@@ -37,7 +37,7 @@ class Login extends Component {
     constructor(props) {
         super(props);
     }
-    
+
      render() {
      ......
      <Container style={styles.bottom}>
@@ -65,11 +65,15 @@ class Login extends Component {
                 </Container>
             </Image>
     </Container>
-     
+
      ......
-     
+
      }
 }
+
+export default connect(state => ({ state: state.login }),
+    dispatch => ({ actions: bindActionCreators(actions, dispatch) }))(Login);
+
 ```
 
 #### 
