@@ -96,6 +96,7 @@ Ares是BONC移动开发框架，在此基础上，只需调用相关api，即可
      
 * [工具函数](di-er-zhang.md)
       引入 `import {versionCheck} from "../../util/AppUtil";` 
+      
       调用工具函数`versionCheck(this.props.setting.version)`
       
 * [常见问题](di-san-zhang.md)
