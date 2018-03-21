@@ -7,6 +7,7 @@
 * [第二章 工具函数](di-er-zhang.md)
   * [APPUtil](di-er-zhang/platform.md)
   * [Global](di-er-zhang/global.md)
-* [第三章 常见问题](di-san-zhang.md)
+* [第三章 路由](di-san-zhang.md)
+* 第四章 常见问题
   * [Q&A](di-san-zhang/qanda.md)
 
