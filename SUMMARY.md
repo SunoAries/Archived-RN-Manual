@@ -19,5 +19,5 @@
   * 下载
   * 用户管理
   * 数据持久化
-* [第六章 应用打包](di-liu-zhang-ying-yong-da-bao.md)
+* [第六章 应用打包与更新](di-liu-zhang-ying-yong-da-bao.md)
 
