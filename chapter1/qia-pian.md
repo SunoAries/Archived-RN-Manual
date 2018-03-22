@@ -1,29 +1,7 @@
-## Button {#Button}
+## 按钮
 
-Button is a pure[NativeBase](https://nativebase.io/)component.  
-Buttons are the integral part of an application. They are used for various purposes like, submit or reset a form, navigate, performing interactive actions such as showing or hiding something in an app on click of the button, etc.
 
-#### Contents
-
-1. Button Theme
-
-2. Transparent Button
-
-3. Outline Button
-
-4. Rounded Button
-
-5. Block Buttton
-
-6. Full Button
-
-7. Icon Button
-
-8. Button Size
-
-9. Disabled  Button
-
-#### Basic Exapmlpe
+#### 基础使用示例
 
 ```
 import React, { Component } from 'react';
@@ -45,33 +23,31 @@ export default class ButtonExample extends Component {
 }
 ```
 
-#### Configuration
+#### 按键配置
 
 | Property | Default | Option | Description |
 | :--- | :---: | :---: | :--- |
-| style |  |  | Defines button style |
-| active |  | boolean | Boolean value to describe state  of Button |
-| transparent | true | boolean | Renders child element of button |
-| bordered |  |  | Applies outlinne button style |
-| rounded |  |  | Renders button with slightlyroun  shaped edges |
-| block |  |  | Block level button |
-| full |  |  | Full width button |
-| disabled |  |  | Disables click option for button |
-| small |  |  | For small size button  |
-| large |  |  | For large size button |
-| iconRight |  |  | Right Padding for the icon |
-| iconLeft |  |  | Left Padding for the icon |
-| light |  |  | Add a light white background color to your component |
-| primary |  |  | Add a blue background color to your component |
-| success |  |  | Add a green background color to your component |
-| info |  |  | Add a light blue background color to your component |
-| warning |  |  | Add a yellow warning background color to your component |
-| danger |  |  | Add a red background color to your component |
-| dark |  |  | Add a black background color to your component |
+| style |  |  | 定义按钮样式 |
+| active |  | boolean | 描述按钮状态 |
+| transparent | true | boolean | 渲染按钮子元素 |
+| bordered |  |  |应用边框 |
+| rounded |  |  | 渲染按钮，带有微微隆起的边缘 |
+| block |  |  | 块级按钮 |
+| full |  |  | 全宽按钮 |
+| disabled |  |  | 禁用按钮的点击选项 |
+| small |  |  | 对于小尺寸的按钮  |
+| large |  |  | 对于大尺寸的按钮 |
+| iconRight |  |  |图标的右填充 |
+| iconLeft |  |  | 左填充图标 |
+| light |  |  | 为您的组件添加浅白色背景色 |
+| primary |  |  | 为您的组件添加蓝色背景色 |
+| success |  |  | 为您的组件添加绿色背景色 |
+| info |  |  | 为您的组件添加淡蓝色背景色 |
+| warning |  |  | 为您的组件添加一个黄色的警告背景色 |
+| danger |  |  | 为您的组件添加红色背景色 |
+| dark |  |  |为您的组件添加黑色背景色 |
 
 #### View
 
 ![](/assets/import.png)
-
-\#asdf
 
